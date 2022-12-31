@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Contrail+One");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #478ac1;
+}
+
+.main-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+.main-wrapper .canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #337bc7;
+  overflow: hidden;
+}
+.main-wrapper .canvas #cloud-1 {
+  position: absolute;
+  width: 55%;
+  left: 20%;
+}
+.main-wrapper .canvas #cloud-2 {
+  position: absolute;
+  width: 45%;
+  top: 30%;
+}
+.main-wrapper .canvas #cloud-3 {
+  position: absolute;
+  width: 45%;
+  top: 20%;
+  left: 55%;
+}
+.main-wrapper #score-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Contrail One", cursive;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+.main-wrapper #live-label {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  font-family: "Contrail One", cursive;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+.main-wrapper .start-btn {
+  position: absolute;
+  background: #D5A21A;
+  color: #fff;
+  font-family: "Contrail One", cursive;
+  font-size: 30px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 0 #A35906;
+  border: 4px solid #fff;
+  cursor: pointer;
+  top: 200px;
+  left: 50%;
+  margin-left: -40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.balloon {
+  position: absolute;
+  width: 130px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */
